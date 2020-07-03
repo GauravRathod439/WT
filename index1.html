@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            font-size: 44p;
+            color: darkcyan;
+        }
+        input{
+            border-radius: 10px;
+            width: 250px;
+            height: 35px;
+            text-indent: 5px;
+        }
+        input:focus{
+            outline: none;
+        }
+        fieldset{
+            width: 50%;
+            height: 690px;
+            background-color: khaki;
+            border-radius: 5px;
+            outline: none;
+        }
+        table{
+            font-size: 22px;
+        }
+        td{
+            line-height: 50px;
+        }
+        input[type="submit"]{
+            width: 120px;
+            height: 30px;
+            background-color: chartreuse ;
+        }
+        input[type="submit"]:hover{
+            background-color: darkgreen;
+        }
+        
+        input[type="reset"]{
+            width: 120px;
+            height: 30px;
+            background-color: chartreuse ;
+        }
+        input[type="reset"]:hover{
+            background-color: darkgreen;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form>
+            <fieldset>
+                <table>
+                    <h1>Booking Form</h1>
+                         <tr>
+                             <th>name</th>
+                             <td>:</td>
+                             <td><input type="text" name="name" id="name" placeholder="enter your name"></td>
+                         </tr>
+                         <tr>
+                            <th>Email id</th>
+                            <td>:</td>
+                            <td><input type="Email" name="Email" id="name" placeholder="enter your Email"></td>
+                        </tr>
+                        <tr>
+                            <th>Contact no</th>
+                            <td>:</td>
+                            <td><input type="number" name="number" id="number" placeholder="enter your number"></td>
+                        </tr>
+                        <tr>
+                            <th>Purpose</th>
+                            <td>:</td>
+                            <td><input type="purpose" name="purpose" id="purpose" placeholder="enter your purpose"></td>
+                        </tr>
+                        <tr>
+                            <th>Form date</th>
+                            <td>:</td>
+                            <td><input type="date" name="date" id="date1"></td>
+                        </tr>
+                        <tr>
+                            <th>To date</th>
+                            <td>:</td>
+                            <td><input type="date" name="name" id="todate1"></td>
+                        </tr>
+                        <tr>
+                            <th>Days</th>
+                            <td>:</td>
+                            <td><input type="text" name="days1" id="days1" placeholder="enter your days></td>
+                        </tr>
+                        <tr>
+                            <th>Rate</th>
+                            <td>:</td>
+                            <td><input type="text" name="rate" id="rate1" placeholder="enter your name"></td>
+                        </tr>
+                       
+                        <tr>
+                            <th>Amount</th>
+                            <td>:</td>
+                            <td><input type="text" name="amount" id="amount1" placeholder="enter your name"></td>
+                        </tr>
+                        
+                        
+                 </table>
+                 <div>
+                     <tr>
+                         <td>
+                             <input type="submit" value="send" name="send" id="send1">
+                             <input type="submit" value="update" name="update" id="update1">
+                         </td>
+                         <td>
+                            <input type="reset" value="cancle" name="cancle" id="cancle1">
+                            <input type="submit" value="Delete" name="Delete" id="Delete1">
+
+                         </td>
+                     </tr>
+                 </div>
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
